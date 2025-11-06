@@ -1,6 +1,7 @@
 # GFX906 Wiki
 
 A clean, markdown‑based documentation site for the GFX906 project, powered by **mdBook** and automatically deployed to GitHub Pages via GitHub Actions.
+https://skyne98.github.io/wiki-gfx906/
 
 ## Project Structure
 
