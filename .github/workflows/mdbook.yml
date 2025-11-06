@@ -22,12 +22,12 @@ jobs:
           mdbook-version: "latest"
 
       - name: Build mdBook
-        run: mdbook build wiki-gfx906
+        run: mdbook build
 
       - name: Upload mdBook artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: wiki-gfx906/book
+          path: book
 
   deploy:
     needs: build
