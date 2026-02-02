@@ -39,6 +39,24 @@ Despite being for ROCm 6.4 it'll work:
 
 6. If you enrolled a key for secure boot, you will get a blue screen with some options. Select "Enroll MOK" and type in the password you assigned earlier.
 
-7. Check if it worked by running ´rocm-smi´ or ´rocminfo --summary´
+7. Check if it worked by running ´sudo update-alternatives --display rocm`
+
+## Post-install (https://rocm.docs.amd.com/projects/install-on-linux/en/latest/install/post-install.html)
+
+1. Configure the system linker by specifying where to find the shared objects (.so files) for ROCm applications:
+```
+sudo tee --append /etc/ld.so.conf.d/rocm.conf <<EOF
+/opt/rocm/lib
+/opt/rocm/lib64
+EOF
+sudo ldconfig
+```
+
+2. Add the paths to your bash
+```
+echo 'export PATH=$PATH:/opt/rocm-7.2.0/bin' >> ~/.bashrc
+echo 'export LD_LIBRARY_PATH=/opt/rocm-7.2.0/lib' >> ~/.bashrc
+source ~/.bashrc
+```
 
 ### That's it, enjoy!
