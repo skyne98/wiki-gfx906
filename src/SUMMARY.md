@@ -9,6 +9,7 @@
 - [Reference](./reference.md)
 - [MI50/MI60 Architecture Baseline](./mi50-mi60-architecture-baseline.md)
 - [gfx906 dot4/dot8 Exploration](./gfx906-dot4-dot8-exploration.md)
+- [FP32 vs QDQ Dot on gfx906](./fp32-vs-qdq-dot-gfx906.md)
 - [Contributing](./contributing.md)
 - [Installing ROCm 7.x](./installing_ROCm_7.x.md)
 - [Installing ComfyUI](./installing_ComfyUI.md)
