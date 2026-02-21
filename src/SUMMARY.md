@@ -11,6 +11,8 @@
 - [gfx906 dot4/dot8 Exploration](./gfx906-dot4-dot8-exploration.md)
 - [gfx906 Special ISA for Quant/Dequant](./gfx906-special-isa-quant-dequant.md)
 - [gfx906 Latency-Hiding Ops](./gfx906-latency-hiding-ops.md)
+- [gfx906 LDS Layout Standard for LLM Blocks](./gfx906-lds-layout-standard-llm.md)
+- [gfx906 KV-Cache Read/Write Study](./gfx906-kv-cache-read-write-study.md)
 - [FP32 vs QDQ Dot on gfx906](./fp32-vs-qdq-dot-gfx906.md)
 - [Contributing](./contributing.md)
 - [Installing ROCm 7.x](./installing_ROCm_7.x.md)
