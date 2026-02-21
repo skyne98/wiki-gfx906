@@ -1,8 +1,34 @@
 # Contributing
 
-Thank you for considering contributing to the **GFX906 Wiki**! This guide outlines how you can help improve the documentation and keep the project healthy.
+Thank you for considering contributing to the **GFX906 Wiki**! This guide outlines how you can help improve the documentation.
 
-## Getting Started
+## Easy Contribution
+
+If you want to simply add or edit some markdown files without touching the console, follow this method.
+
+#### To edit a markdown file on the wiki:
+
+1. Open it on github and click the "edit" button. You will be prompted to create a fork if you don't already have a fork. Do so.
+
+2. Make your edits and be sure to keep the markdown clean as outlined in [Making Changes](#making-changes).
+
+3. [Commit](#commit-messages) and repeat this process until you are done.
+
+4. Submit a pull request to the "main" branch
+
+#### To add your own existing markdown files:
+
+1. Click the **Fork** button on the top right of the repository page.
+
+2. Click "Add file" on the main page of your fork. Click "Upload Files". Make sure your files contain clean markdown. See [Making Changes](#making-changes).
+
+4. Upload all files you want to add and click "Commit Changes". See [Commits](#commit-messages)
+
+5. Update the SUMMARY.md file following the process above to add links to your files to the sidebar. Please try to respect the existing structure of the sidebar.
+
+6. Submit a pull request to the "main" branch
+
+## Local deployment
 
 1. **Fork the repository**  
    Click the **Fork** button on the top right of the repository page.
